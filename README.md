@@ -1,18 +1,22 @@
-# 🌦️ WeatherSphere Pro 
+# 🌦️ WeatherSphere
 
-A modern, responsive weather dashboard built with HTML, CSS, and JavaScript, providing real-time weather data, forecasts, air-quality information, interactive analytics, maps, and personalized weather insights.
+A modern, responsive weather dashboard built with HTML, CSS, and JavaScript, providing real-time weather data, forecasts, air-quality information, interactive analytics, maps, and weather-based insights.
 
 ## 🚀 Live Demo
 
-🔗 GitHub Pages: Add your deployed link here
+🔗 **GitHub Pages:** Add your deployed link here
+
+---
 
 ## 📌 Overview
 
-WeatherSphere Pro 4.0 is a web-based weather dashboard designed to provide weather information through a clean and interactive interface.
+**WeatherSphere** is a web-based weather dashboard designed to provide detailed and interactive weather information through a clean and responsive interface.
 
-The application uses the Open-Meteo API ecosystem to retrieve weather, geocoding, and air-quality data without requiring an API key.
+The application integrates the **Open-Meteo API ecosystem** to retrieve weather, geocoding, and air-quality data without requiring an API key.
 
 The project focuses on responsive web development, API integration, dynamic UI updates, data visualization, browser storage, and interactive user features.
+
+---
 
 ## ✨ Features
 
@@ -20,7 +24,8 @@ The project focuses on responsive web development, API integration, dynamic UI u
 
 - Search weather by city
 - Detect weather using current location
-- Current temperature and feels-like temperature
+- Current temperature
+- Feels-like temperature
 - Humidity
 - Wind speed and direction
 - Atmospheric pressure
@@ -52,7 +57,9 @@ The project focuses on responsive web development, API integration, dynamic UI u
 
 ### 📊 Weather Analytics
 
-Interactive charts powered by Chart.js:
+Interactive data visualization powered by **Chart.js**.
+
+Includes:
 
 - Temperature trends
 - Humidity trends
@@ -61,7 +68,7 @@ Interactive charts powered by Chart.js:
 
 ### 🗺️ Interactive Weather Map
 
-Powered by Leaflet.js and OpenStreetMap.
+Powered by **Leaflet.js** and **OpenStreetMap**.
 
 - Location-based map
 - Current weather location marker
@@ -78,7 +85,7 @@ Powered by Leaflet.js and OpenStreetMap.
 
 ### 🎤 Voice Search
 
-Search for cities using the browser's Speech Recognition API where supported.
+Search for cities using browser-based Speech Recognition where supported.
 
 ### 🌦️ Smart Weather Insights
 
@@ -92,13 +99,15 @@ Provides rule-based recommendations based on current weather conditions, includi
 ### 🌐 Additional Features
 
 - Weather information for selected major world cities
-- Live local time and date
+- Live clock
 - Dynamic weather backgrounds
 - Loading screen
 - Error handling and retry functionality
 - Offline/online connection indicator
 - Mobile navigation
 - Responsive design for different screen sizes
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -110,6 +119,8 @@ Provides rule-based recommendations based on current weather conditions, includi
 | Chart.js | Weather data visualization |
 | Leaflet.js | Interactive maps |
 | Local Storage | Favorites and search history |
+
+---
 
 ## 📡 APIs
 
@@ -123,7 +134,7 @@ Used for:
 - Temperature
 - Humidity
 - Wind
-- Pressure
+- Atmospheric pressure
 - Precipitation
 - UV index
 - Sunrise and sunset
@@ -140,24 +151,30 @@ Used for:
 
 Used for:
 
-- AQI
+- Air Quality Index
 - PM2.5
 - PM10
 - Carbon monoxide
 - Nitrogen dioxide
 
+---
+
 ## 📱 Responsive Design
 
-The dashboard is designed to work across:
+WeatherSphere is designed to work across:
 
 - Desktop
 - Laptop
 - Tablet
 - Mobile devices
 
+The interface was also manually tested at a smaller screen size to verify layout and usability.
+
+---
+
 ## 🧪 Manual QA Testing
 
-Manual QA testing was performed separately on WeatherSphere Pro to validate its functionality, UI behavior, input handling, responsive behavior, and user workflows.
+Manual QA testing was performed separately on **WeatherSphere** to validate its functionality, UI behavior, input handling, responsive behavior, and user workflows.
 
 ### Test Execution Summary
 
@@ -169,16 +186,61 @@ Manual QA testing was performed separately on WeatherSphere Pro to validate its 
 | Needs Review | 1 |
 | Confirmed Defects | 3 |
 
-The testing cycle identified and documented three defects covering favorite button functionality, light-mode readability, and empty search input handling.
+The testing cycle identified and documented **three confirmed defects** related to:
+
+- Favorite button functionality
+- Light-mode readability
+- Empty search input handling
 
 Defect severity, priority, reproduction steps, expected results, actual results, and retesting evidence were documented as part of the QA testing process.
+
+One of the identified defects was also tracked through **Jira** and subsequently retested.
+
+---
 
 ## 📂 Project Structure
 
 ```text
-WeatherSphere-Pro/
+WeatherSphere/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+```
+
+---
+
+## ▶️ Getting Started
+
+1. Clone or download the repository.
+2. Open the project folder.
+3. Open `index.html` in a modern web browser.
+4. Search for a city or use the current-location option.
+5. Explore weather forecasts, analytics, air quality, maps, favorites, and other dashboard features.
+
+No API key is required for the Open-Meteo APIs used by the project.
+
+---
+
+## 🎯 Project Purpose
+
+WeatherSphere was developed as a portfolio web application to practice:
+
+- Frontend development
+- REST API integration
+- Dynamic DOM manipulation
+- Data visualization
+- Browser Local Storage
+- Responsive UI development
+- Manual software testing
+- Test case design
+- Defect reporting
+- QA documentation
+
+---
+
+
+**Aditi Singh**
+
+B.Tech Computer Science Engineering Student
