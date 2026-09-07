@@ -240,6 +240,7 @@ WeatherSphere was developed as a portfolio web application to practice:
 
 ---
 
+## 👩‍💻 Author
 
 **Aditi Singh**
 
