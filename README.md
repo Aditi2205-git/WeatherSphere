@@ -4,7 +4,7 @@ A modern, responsive weather dashboard built with HTML, CSS, and JavaScript, pro
 
 ## 🚀 Live Demo
 
-🔗 **GitHub Pages:** Add your deployed link here
+🔗 **GitHub Pages:** https://aditi2205-git.github.io/WeatherSphere/
 
 ---
 
