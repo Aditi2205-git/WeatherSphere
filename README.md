@@ -1,218 +1,184 @@
-# 🌦️ WeatherSphere Pro 4.0
+# 🌦️ WeatherSphere Pro 
 
-<p align="center">
-
-### A Modern Weather Intelligence Dashboard Built with HTML, CSS & JavaScript
-
-Real-time Weather • Forecast Analytics • Air Quality • Interactive Maps • Smart Insights • Dynamic UI
-
-</p>
-
----
+A modern, responsive weather dashboard built with HTML, CSS, and JavaScript, providing real-time weather data, forecasts, air-quality information, interactive analytics, maps, and personalized weather insights.
 
 ## 🚀 Live Demo
 
-🔗 **GitHub Pages:**  
-(Add your deployed link here)
+🔗 GitHub Pages: Add your deployed link here
 
----
+## 📌 Overview
 
-# 📌 Overview
+WeatherSphere Pro 4.0 is a web-based weather dashboard designed to provide weather information through a clean and interactive interface.
 
-**WeatherSphere Pro 4.0** is a modern, responsive, and visually immersive weather intelligence dashboard that provides real-time weather information, forecasts, air quality monitoring, interactive maps, and personalized weather insights.
+The application uses the Open-Meteo API ecosystem to retrieve weather, geocoding, and air-quality data without requiring an API key.
 
-The project is built using pure **HTML, CSS, and JavaScript** without any framework dependency and uses the **Open-Meteo API ecosystem**, making it completely free and API-key independent.
+The project focuses on responsive web development, API integration, dynamic UI updates, data visualization, browser storage, and interactive user features.
 
-The application focuses on delivering a smooth user experience with dynamic weather visualization, analytics dashboards, and device-friendly responsive design.
+## ✨ Features
 
----
+### 🌍 Current Weather
 
-# ✨ Features
-
-## 🌍 Real-Time Weather Dashboard
-
-- Search weather by city name
+- Search weather by city
 - Detect weather using current location
-- Live temperature updates
-- Feels-like temperature
-- Humidity monitoring
-- Wind speed information
-- Atmospheric pressure tracking
-- Sunrise and sunset timing
+- Current temperature and feels-like temperature
+- Humidity
+- Wind speed and direction
+- Atmospheric pressure
+- Cloud cover
+- Precipitation
+- Visibility
+- Sunrise and sunset
+- UV Index
+- Dynamic weather condition display
 
----
+### 📅 Weather Forecast
 
-## 📅 Weather Forecast
-
-### Hourly Forecast
-
-- 12-hour weather prediction
-- Temperature changes
-- Humidity levels
-- Weather conditions
-
-
-### Weekly Forecast
-
+- 24-hour hourly forecast
 - 7-day forecast
-- Maximum and minimum temperature
-- Weather condition prediction
-- Rain probability information
+- Temperature information
+- Humidity levels
+- Rain probability
+- Weather condition indicators
+- Daily maximum and minimum temperatures
 
----
+### 🌫️ Air Quality
 
-# 📊 Weather Analytics
-
-Interactive data visualization powered by Chart.js.
-
-Includes:
-
-- 🌡️ Temperature trend analysis
-- 💧 Humidity variation graph
-- 🌬 Wind speed analytics
-- 🌧 Rain probability chart
-
----
-
-# 🌫️ Air Quality Intelligence
-
-Real-time environmental monitoring:
-
-- AQI score
-- PM2.5 level
-- PM10 particles
+- Air Quality Index (AQI)
+- PM2.5
+- PM10
 - Carbon monoxide
 - Nitrogen dioxide
-- Ozone levels
+- AQI classification
 
-Provides health-based air quality classification.
+### 📊 Weather Analytics
 
----
+Interactive charts powered by Chart.js:
 
-# 🗺️ Interactive Weather Map
+- Temperature trends
+- Humidity trends
+- Wind speed
+- Atmospheric pressure
 
-Powered by Leaflet.js.
+### 🗺️ Interactive Weather Map
 
-Features:
+Powered by Leaflet.js and OpenStreetMap.
 
-- Dynamic location marker
-- Current weather popup
-- Map navigation
+- Location-based map
+- Current weather location marker
+- Interactive map navigation
 - City-based location updates
-- OpenStreetMap integration
 
----
+### ❤️ Personalization
 
-# 🤖 Smart Weather Insights
+- Favorite cities
+- Recent search history
+- Local Storage based browser persistence
+- Celsius/Fahrenheit temperature switching
+- Dark/light theme toggle
 
-The dashboard generates useful recommendations based on weather conditions:
+### 🎤 Voice Search
 
-Examples:
+Search for cities using the browser's Speech Recognition API where supported.
 
-- Hydration reminders during high temperatures
-- Rain preparation suggestions
-- Thunderstorm warnings
-- Humidity comfort suggestions
-- UV safety information
+### 🌦️ Smart Weather Insights
 
----
+Provides rule-based recommendations based on current weather conditions, including:
 
-# ❤️ User Personalization
+- Heat and hydration advice
+- Rain preparation
+- Outdoor activity suggestions
+- Basic weather-related health guidance
 
-### Favorites System
+### 🌐 Additional Features
 
-Users can:
+- Weather information for selected major world cities
+- Live local time and date
+- Dynamic weather backgrounds
+- Loading screen
+- Error handling and retry functionality
+- Offline/online connection indicator
+- Mobile navigation
+- Responsive design for different screen sizes
 
-- Save favourite cities
-- Quickly access saved locations
-- Remove unwanted locations
-
-
-### Search History
-
-Includes:
-
-- Recent searches
-- Quick city switching
-- Local browser storage
-
----
-
-# 🎤 Advanced Features
-
-## Voice Search
-
-Search cities using browser speech recognition.
-
----
-
-## 🌙 Dynamic Theme
-
-Includes:
-
-- Dark mode
-- Light mode
-- Saved theme preference
-
----
-
-## 📱 Responsive Design
-
-Optimized for:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile devices
-
----
-
-## 📡 Offline Awareness
-
-Detects:
-
-- Internet disconnection
-- Connection restoration
-
----
-
-# 🛠️ Tech Stack
-
-## Frontend
+## 🛠️ Tech Stack
 
 | Technology | Purpose |
 |---|---|
-| HTML5 | Structure |
-| CSS3 | Styling & Responsive UI |
-| JavaScript ES6+ | Application Logic |
-| Chart.js | Weather Analytics |
-| Leaflet.js | Interactive Maps |
+| HTML5 | Application structure |
+| CSS3 | Styling, animations and responsive design |
+| JavaScript ES6+ | Application logic and API integration |
+| Chart.js | Weather data visualization |
+| Leaflet.js | Interactive maps |
+| Local Storage | Favorites and search history |
 
----
-
-## APIs Used
+## 📡 APIs
 
 ### Open-Meteo Weather API
 
 Used for:
 
-- Current weather
-- Forecast data
-- Weather parameters
-
+- Current weather conditions
+- Hourly weather data
+- Daily forecasts
+- Temperature
+- Humidity
+- Wind
+- Pressure
+- Precipitation
+- UV index
+- Sunrise and sunset
 
 ### Open-Meteo Geocoding API
 
 Used for:
 
 - City search
-- Latitude/Longitude conversion
-
+- Latitude and longitude lookup
+- Reverse geocoding for current location
 
 ### Open-Meteo Air Quality API
 
 Used for:
 
-- AQI monitoring
-- Pollution analysis
+- AQI
+- PM2.5
+- PM10
+- Carbon monoxide
+- Nitrogen dioxide
 
+## 📱 Responsive Design
+
+The dashboard is designed to work across:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile devices
+
+## 🧪 Manual QA Testing
+
+Manual QA testing was performed separately on WeatherSphere Pro to validate its functionality, UI behavior, input handling, responsive behavior, and user workflows.
+
+### Test Execution Summary
+
+| Metric | Result |
+|---|---:|
+| Total Test Cases | 30 |
+| Passed | 28 |
+| Failed | 1 |
+| Needs Review | 1 |
+| Confirmed Defects | 3 |
+
+The testing cycle identified and documented three defects covering favorite button functionality, light-mode readability, and empty search input handling.
+
+Defect severity, priority, reproduction steps, expected results, actual results, and retesting evidence were documented as part of the QA testing process.
+
+## 📂 Project Structure
+
+```text
+WeatherSphere-Pro/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
